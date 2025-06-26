@@ -75,7 +75,7 @@ export default function Home() {
           rel="noopener noreferrer"
         >
           <Image aria-hidden src="/globe.svg" alt="Globe icon" width={16} height={16} />
-          Go to nextjs.org → testing with hooks + testing commit lint
+          Go to nextjs.org → testing with hooks + testing commit lint + 2nd test
         </a>
       </footer>
     </div>
