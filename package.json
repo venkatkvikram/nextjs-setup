@@ -3,30 +3,32 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-  "dev": "next dev",
-  "build": "next build",
-  "start": "next start",
-  "lint": "eslint . --ext .ts,.tsx",
-  "format": "prettier --write .",
-  "stylelint": "stylelint \"**/*.{css,scss}\" --fix",
-  "prepare": "husky install"
-},
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "eslint . --ext .ts,.tsx",
+    "format": "prettier --write .",
+    "stylelint": "stylelint \"**/*.{css,scss}\" --fix",
+    "prepare": "husky install"
+  },
   "lint-staged": {
-  "*.{js,jsx,ts,tsx}": [
-    "eslint --fix",
-    "prettier --write"
-  ],
-  "*.{css,scss}": [
-    "stylelint --fix",
-    "prettier --write"
-  ]
-},
+    "*.{js,jsx,ts,tsx}": [
+      "eslint --fix",
+      "prettier --write"
+    ],
+    "*.{css,scss}": [
+      "stylelint --fix",
+      "prettier --write"
+    ]
+  },
   "dependencies": {
     "next": "15.3.4",
     "react": "^19.0.0",
     "react-dom": "^19.0.0"
   },
   "devDependencies": {
+    "@commitlint/cli": "^19.8.1",
+    "@commitlint/config-conventional": "^19.8.1",
     "@eslint/eslintrc": "^3",
     "@tailwindcss/postcss": "^4",
     "@types/node": "^20",
