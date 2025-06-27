@@ -1,7 +1,7 @@
-const config = {
+module.exports = {
   extends: [
     "stylelint-config-standard",
-    "stylelint-config-recommended",
+    "stylelint-config-tailwindcss",
     "stylelint-config-prettier",
   ],
   plugins: ["stylelint-order", "stylelint-prettier"],
@@ -9,7 +9,5 @@ const config = {
     "prettier/prettier": true,
     "order/properties-alphabetical-order": true,
   },
-  ignoreFiles: ["**/*.js", "**/*.ts", "**/*.tsx", "**/*.jsx"],
+  ignoreFiles: ["**/*.js", "**/*.ts", "**/*.tsx", "**/*.jsx", "src/app/[locale]/globals.css"],
 };
-
-export default config;

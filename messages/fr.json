@@ -1,0 +1,10 @@
+{
+  "HomePage": {
+    "title": "Bonjour!",
+    "about": "Accédez à la page à propos",
+    "contact": "Aller à la page contact"
+  },
+    "ContactPage" : {
+    "title": "Utilisez cette page pour nous contacter"
+  }
+}

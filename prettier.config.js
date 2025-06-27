@@ -1,6 +1,5 @@
-import type { Options } from "prettier";
-
-const config: Options = {
+/** @type {import("prettier").Options} */
+const config = {
   semi: true,
   singleQuote: false,
   tabWidth: 2,
@@ -10,4 +9,4 @@ const config: Options = {
   printWidth: 100,
 };
 
-export default config;
+module.exports = config;
