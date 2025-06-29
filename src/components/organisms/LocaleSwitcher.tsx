@@ -1,7 +1,7 @@
 import { useSelector, useDispatch } from "react-redux";
-import { RootState } from "../../store/store";
-import { setLocale } from "../../store/localeSlice";
 import { LocaleSwitcherSelect } from "../molecules/LocaleSwitcherSelect";
+import { setLocale } from "@/store/localeSlice";
+import { RootState } from "@/store/store";
 
 export const LocaleSwitcher = () => {
   const locale = useSelector((state: RootState) => state.locale.value);
