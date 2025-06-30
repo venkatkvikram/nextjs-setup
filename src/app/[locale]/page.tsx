@@ -1,13 +1,11 @@
 import { useTranslations } from "next-intl";
-import Link from "next/link";
 
 export default function HomePage() {
   const t = useTranslations("HomePage");
   return (
-    <div>
-      <h1>{t("title")}</h1>
-      <Link href="/about">{t("about")}</Link>
-      <Link href="/contact">{t("contact")}</Link>
+    <div className="flex justify-between">
+      <h1 className="text-3xl font-bold">{t("title")}</h1>
+      {/* Add navigation links here if needed */}
     </div>
   );
 }

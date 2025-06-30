@@ -1,10 +1,18 @@
 {
   "HomePage": {
-    "title": "Bonjour!",
+    "title": "Bonjour! ",
     "about": "Accédez à la page à propos",
     "contact": "Aller à la page contact"
   },
     "ContactPage" : {
     "title": "Utilisez cette page pour nous contacter"
+  }, 
+  "AboutPage" : {
+    "title": "Bienvenue sur la page à propos"
+  },
+  "global" : {
+    "home": "accueil",
+    "about": "à propos",
+    "contact": "contact"
   }
 }
