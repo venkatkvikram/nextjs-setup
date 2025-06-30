@@ -19,5 +19,6 @@ module.exports = {
         "setup",
       ],
     ],
+    "subject-case": [0],
   },
 };
