@@ -6,7 +6,7 @@ import { useLocale } from "next-intl";
 import { LocaleSwitcherSelect } from "../molecules/LocaleSwitcherSelect";
 import { setLocale } from "@/store/localeSlice";
 import { RootState } from "@/store/store";
-import { useRouter, usePathname } from "@/i18n/naviagtion";
+import { useRouter, usePathname } from "@/i18n/navigation";
 
 export const LocaleSwitcher = () => {
   const locale = useSelector((state: RootState) => state.locale.value);

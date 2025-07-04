@@ -2,7 +2,7 @@ import { Form } from "../atoms/Form";
 import { Input } from "../atoms/Input";
 import { Label } from "../atoms/Label";
 import { Button } from "../atoms/Button";
-import { Textarea } from "../atoms/TextArea";
+import { Textarea } from "../atoms/Textarea";
 
 export const ContactForm = () => (
   <Form

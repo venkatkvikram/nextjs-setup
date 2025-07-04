@@ -1,6 +1,6 @@
 import { useTranslations } from "next-intl";
 import { Button } from "../atoms/Button";
-import { Link } from "@/i18n/naviagtion";
+import { Link } from "@/i18n/navigation";
 import { navigation } from "@/config/navigation";
 
 export const NavBar = () => {
